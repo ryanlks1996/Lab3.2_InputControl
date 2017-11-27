@@ -25,7 +25,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //test 1 2 3
+        textViewPremium.setText("");
         spinnerAge = (Spinner)findViewById(R.id.spinnerAge);
         spinnerAge.setOnItemSelectedListener(this);
         //create adapter, supply with value and layout
